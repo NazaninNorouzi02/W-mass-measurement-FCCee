@@ -1,0 +1,157 @@
+
+Processing audit_wmass_365.C("wmass_fit_pvalue_pulls_ISR_ecm365.root","wmass_365_audit.csv")...
+============================================================
+W-mass 365 GeV audit
+Input pattern : wmass_fit_pvalue_pulls_ISR_ecm365.root
+Files added   : 1
+Chain entries : 45583
+Contributing files:
+  [ 1] wmass_fit_pvalue_pulls_ISR_ecm365.root : 45583 entries
+============================================================
+input                | output tree entries                         | selected=   45583
+cutflow 4C           | valid standard 4C                           | selected=   45581
+cutflow 4C           | direct accepted                             | selected=   24819
+cutflow 4C           | ISR-triggered standard failures             | selected=   20762
+cutflow 4C           | ISR attempted flag                          | selected=   20762
+cutflow 4C           | ISR fit valid                               | selected=   20762
+cutflow 4C           | ISR applied                                 | selected=   20762
+cutflow 4C           | ISR recovered above 3%                      | selected=   11051
+cutflow 4C           | ISR recovered flag                          | selected=   11051
+cutflow 4C           | final accepted total                        | selected=   35870
+cutflow 5C           | valid standard 5C                           | selected=   45562
+cutflow 5C           | direct accepted                             | selected=    4499
+cutflow 5C           | ISR-triggered standard failures             | selected=   41063
+cutflow 5C           | ISR attempted flag                          | selected=   41063
+cutflow 5C           | ISR fit valid                               | selected=   41063
+cutflow 5C           | ISR applied                                 | selected=   41063
+cutflow 5C           | ISR recovered above 3%                      | selected=    6757
+cutflow 5C           | ISR recovered flag                          | selected=    6757
+cutflow 5C           | final accepted total                        | selected=   11256
+fit diagnostic       | both standard fits valid                    | selected=   45560
+fit diagnostic       | Delta chi2 < -0.001                         | selected=     181
+fit diagnostic       | Delta chi2 > 3.841                          | selected=   41576
+fit diagnostic       | Delta chi2 > 6.635                          | selected=   40453
+fit diagnostic       | probability outside [0,1]                   | selected=       0
+Figure 7.8           | MC effective collinear ISR                  | selected=   41063 finite=   41063 visible=   41063 excluded=       0
+Figure 7.8           | fitted 5C ISR                               | selected=   41063 finite=   41063 visible=   41063 excluded=       0
+Figure 7.8           | fitted within 0.5 GeV of Emax               | selected=     422
+Figure 7.8           | |fitted y_ISR| >= 4.9                       | selected=     105
+Figure 7.8           | configured Emax                             | selected=   45583 finite=   45583 visible=   45583 excluded=       0
+Figure 7.9           | 5C mass without ISR                         | selected=   45562 finite=   45562 visible=   42486 excluded=    3076
+Figure 7.9           | 5C mass with ISR treatment                  | selected=   45562 finite=   45562 visible=   43783 excluded=    1779
+Figure 7.9           | 5C probability without ISR                  | selected=   45562 finite=   45562 visible=   45562 excluded=       0
+Figure 7.9           | 5C probability with ISR treatment           | selected=   45562 finite=   45562 visible=   45562 excluded=       0
+Figure 7.10          | raw smaller mass                            | selected=   45583 finite=   45583 visible=   43527 excluded=    2056
+Figure 7.10          | raw larger mass                             | selected=   45583 finite=   45583 visible=   41488 excluded=    4095
+Figure 7.10          | final 4C smaller mass                       | selected=   45581 finite=   45581 visible=   43220 excluded=    2361
+Figure 7.10          | final 4C larger mass                        | selected=   45581 finite=   45581 visible=   41162 excluded=    4419
+Figure 7.10          | final 5C mass - smaller panel               | selected=   45562 finite=   45562 visible=   43783 excluded=    1779
+Figure 7.10          | final 5C mass - larger panel                | selected=   45562 finite=   45562 visible=   43783 excluded=    1779
+Appendix 4C          | m_small_4C before cut                       | selected=   45581 finite=   45581 visible=   41693 excluded=    3888
+Appendix 4C          | m_small_4C after cut                        | selected=   24819 finite=   24819 visible=   24027 excluded=     792
+Appendix 4C          | m_large_4C before cut                       | selected=   45581 finite=   45581 visible=   38010 excluded=    7571
+Appendix 4C          | m_large_4C after cut                        | selected=   24819 finite=   24819 visible=   22431 excluded=    2388
+Appendix 5C          | mW_5C before cut                            | selected=   45562 finite=   45562 visible=   42486 excluded=    3076
+Appendix 5C          | mW_5C after cut                             | selected=    4499 finite=    4499 visible=    4489 excluded=      10
+Pull 4C              | standard before jet1 alpha                  | selected=   45581 finite=   45581 visible=   38403 excluded=    7178
+Pull 4C              | standard before jet1 theta                  | selected=   45581 finite=   45581 visible=   32186 excluded=   13395
+Pull 4C              | standard before jet1 phi                    | selected=   45581 finite=   45581 visible=   33614 excluded=   11967
+Pull 4C              | standard before jet1 x                      | selected=   45581 finite=   45581 visible=   38475 excluded=    7106
+Pull 4C              | standard before jet2 alpha                  | selected=   45581 finite=   45581 visible=   37135 excluded=    8446
+Pull 4C              | standard before jet2 theta                  | selected=   45581 finite=   45581 visible=   32303 excluded=   13278
+Pull 4C              | standard before jet2 phi                    | selected=   45581 finite=   45581 visible=   33616 excluded=   11965
+Pull 4C              | standard before jet2 x                      | selected=   45581 finite=   45581 visible=   37110 excluded=    8471
+Pull 4C              | standard before jet3 alpha                  | selected=   45581 finite=   45581 visible=   36356 excluded=    9225
+Pull 4C              | standard before jet3 theta                  | selected=   45581 finite=   45581 visible=   32451 excluded=   13130
+Pull 4C              | standard before jet3 phi                    | selected=   45581 finite=   45581 visible=   33338 excluded=   12243
+Pull 4C              | standard before jet3 x                      | selected=   45581 finite=   45581 visible=   36299 excluded=    9282
+Pull 4C              | standard before jet4 alpha                  | selected=   45581 finite=   45581 visible=   33384 excluded=   12197
+Pull 4C              | standard before jet4 theta                  | selected=   45581 finite=   45580 visible=   32966 excluded=   12615
+Pull 4C              | standard before jet4 phi                    | selected=   45581 finite=   45577 visible=   33481 excluded=   12100
+Pull 4C              | standard before jet4 x                      | selected=   45581 finite=   45581 visible=   33344 excluded=   12237
+Pull 4C              | standard after jet1 alpha                   | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet1 theta                   | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet1 phi                     | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet1 x                       | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet2 alpha                   | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet2 theta                   | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet2 phi                     | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet2 x                       | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet3 alpha                   | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet3 theta                   | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet3 phi                     | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet3 x                       | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet4 alpha                   | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet4 theta                   | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet4 phi                     | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | standard after jet4 x                       | selected=   24819 finite=   24819 visible=   24819 excluded=       0
+Pull 4C              | final selected jet1 alpha                   | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet1 theta                   | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet1 phi                     | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet1 x                       | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet2 alpha                   | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet2 theta                   | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet2 phi                     | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet2 x                       | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet3 alpha                   | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet3 theta                   | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet3 phi                     | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet3 x                       | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet4 alpha                   | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet4 theta                   | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet4 phi                     | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 4C              | final selected jet4 x                       | selected=   35870 finite=   35870 visible=   35870 excluded=       0
+Pull 5C              | standard before jet1 alpha                  | selected=   45562 finite=   45562 visible=   31039 excluded=   14523
+Pull 5C              | standard before jet1 theta                  | selected=   45562 finite=   45562 visible=   10885 excluded=   34677
+Pull 5C              | standard before jet1 phi                    | selected=   45562 finite=   45561 visible=   11210 excluded=   34352
+Pull 5C              | standard before jet1 x                      | selected=   45562 finite=   45562 visible=   24047 excluded=   21515
+Pull 5C              | standard before jet2 alpha                  | selected=   45562 finite=   45562 visible=   29278 excluded=   16284
+Pull 5C              | standard before jet2 theta                  | selected=   45562 finite=   45561 visible=   10595 excluded=   34967
+Pull 5C              | standard before jet2 phi                    | selected=   45562 finite=   45561 visible=   11551 excluded=   34011
+Pull 5C              | standard before jet2 x                      | selected=   45562 finite=   45562 visible=   22535 excluded=   23027
+Pull 5C              | standard before jet3 alpha                  | selected=   45562 finite=   45562 visible=   29047 excluded=   16515
+Pull 5C              | standard before jet3 theta                  | selected=   45562 finite=   45555 visible=   10630 excluded=   34932
+Pull 5C              | standard before jet3 phi                    | selected=   45562 finite=   45561 visible=   11504 excluded=   34058
+Pull 5C              | standard before jet3 x                      | selected=   45562 finite=   45562 visible=   20975 excluded=   24587
+Pull 5C              | standard before jet4 alpha                  | selected=   45562 finite=   45562 visible=   25013 excluded=   20549
+Pull 5C              | standard before jet4 theta                  | selected=   45562 finite=   45548 visible=   10604 excluded=   34958
+Pull 5C              | standard before jet4 phi                    | selected=   45562 finite=   45548 visible=   11709 excluded=   33853
+Pull 5C              | standard before jet4 x                      | selected=   45562 finite=   45562 visible=   19276 excluded=   26286
+Pull 5C              | standard after jet1 alpha                   | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet1 theta                   | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet1 phi                     | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet1 x                       | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet2 alpha                   | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet2 theta                   | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet2 phi                     | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet2 x                       | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet3 alpha                   | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet3 theta                   | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet3 phi                     | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet3 x                       | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet4 alpha                   | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet4 theta                   | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet4 phi                     | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | standard after jet4 x                       | selected=    4499 finite=    4499 visible=    4499 excluded=       0
+Pull 5C              | final selected jet1 alpha                   | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet1 theta                   | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet1 phi                     | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet1 x                       | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet2 alpha                   | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet2 theta                   | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet2 phi                     | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet2 x                       | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet3 alpha                   | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet3 theta                   | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet3 phi                     | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet3 x                       | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet4 alpha                   | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet4 theta                   | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet4 phi                     | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+Pull 5C              | final selected jet4 x                       | selected=   11256 finite=   11256 visible=   11256 excluded=       0
+============================================================
+Saved audit CSV: wmass_365_audit.csv
+Mass plot range: [40,120) GeV
+Pull plot range: [-5,5)
+Probability range: [0,1]
+============================================================

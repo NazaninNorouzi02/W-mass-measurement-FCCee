@@ -1,0 +1,4 @@
+energy,stored_Emax_mean_GeV,stored_Emax_median_GeV,formula_single_W_mass_GeV,formula_WW_pair_threshold_GeV,warning
+162p5,61.367698669433594,61.367698669433594,61.367697769230766,1.7207910769230617,"If mW_ref is one W mass, the WW-pair threshold formula should be used."
+240,106.53802490234375,106.53802490234375,106.53802453124999,66.15209812499998,"If mW_ref is one W mass, the WW-pair threshold formula should be used."
+365,173.64828491210938,173.64828491210938,173.64829010273974,147.0931604109589,"If mW_ref is one W mass, the WW-pair threshold formula should be used."

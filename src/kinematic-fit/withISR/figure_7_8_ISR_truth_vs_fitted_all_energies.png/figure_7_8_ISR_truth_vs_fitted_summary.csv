@@ -1,0 +1,7 @@
+energy_GeV,fit,curve,branch,selection,selected_entries,visible_entries,mean_GeV,stddev_GeV
+162.5,4C+ISR,MC effective collinear ISR,E_isr_true_collinear,isr_4C_applied > 0.5,13998,13998,0.9794122531450057,2.809698057180544
+162.5,4C+ISR,fitted ISR,E_isr_4C_fitted,isr_4C_applied > 0.5,13998,13998,3.942802268946268,6.195643423450162
+240.0,5C+ISR,MC effective collinear ISR,E_isr_true_collinear,isr_applied > 0.5,42103,42103,4.985585157770221,10.918715000867701
+240.0,5C+ISR,fitted ISR,E_isr_fitted,isr_applied > 0.5,42103,42103,8.821139255728152,15.018586819000967
+365.0,5C+ISR,MC effective collinear ISR,E_isr_true_collinear,isr_applied > 0.5,40744,40744,12.947852326235793,26.992709579501334
+365.0,5C+ISR,fitted ISR,E_isr_fitted,isr_applied > 0.5,40744,40744,20.27244690681546,31.997612594565577
