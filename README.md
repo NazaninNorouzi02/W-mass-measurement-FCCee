@@ -10,7 +10,7 @@ This is an ongoing team project. Some parts of the work are based on collaborati
 
 The main reference used for the W mass reconstruction part is:
 
-Marina Béguin, *Calorimetry and W mass measurement for future experiments*
+[Marina Béguin, *Calorimetry and W mass measurement for future experiments*](https://inspirehep.net/literature/1787166)
 
 The current baseline work is organized around two main parts:
 
